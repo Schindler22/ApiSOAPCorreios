@@ -1,0 +1,15 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.2",
+  "options": {
+    "inputs": [
+      "https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference"
+    ],
+    "outputFile": "Reference.cs",
+    "targetFramework": "net5.0",
+    "typeReuseMode": "All"
+  }
+}
