@@ -35,7 +35,7 @@ namespace Correios
                 {
 
                     var client = new AtendeClienteClient();
-                    var resposta = client.consultaCEPAsync("30270080");
+                    var resposta = client.consultaCEPAsync("00000000");
 
                     var unidadesPostagem = resposta.Result.@return.unidadesPostagem;
                     var bairro = resposta.Result.@return.bairro;
